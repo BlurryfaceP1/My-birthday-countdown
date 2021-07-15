@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:ital,wght@1,300&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,17 +6,24 @@
 
 }
 body{
-    font-family: "Lato", sans-serif;
+    font-family: "Ubuntu", sans-serif;
     
 }
 
-h2{
-    font-size: 5rem;
+h1{
+    font-size: 4vw;
     font-weight: bold;
-    padding:3rem;
+    padding:0;
+    margin: 0;
+}
+span{
+    color:rgb(29, 168, 255);
 }
 h3{
-    font-size: 2rem;
+    font-size: 3vw;
+    padding:0;
+    margin: 0;
+
 }
 .coming-soon{
     height: 100vh;
@@ -25,6 +31,7 @@ h3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 5vw;
     
 }
 .countdown{
@@ -36,12 +43,14 @@ h3{
 .hour,
 .minute,
 .second{
-    font-size: 3rem;
-    padding: 3rem;
+    font-size: 3vw;
+    padding: 4rem;
+    margin: 0;
 }
 
 .waiting {
     max-width: 100%;
+    margin-top: 1em;
     height: auto;
   }
 /*p::before{
